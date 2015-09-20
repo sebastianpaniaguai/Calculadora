@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="Operando1">Ingrese aqui operando 1: </string>
+    <string name="Operando2">Ingrese aqui operando 2: </string>
+    <string name="action_settings">Settings</string>
+    <string name="rbSuma">Sumar</string>
+    <string name="rbResta">Restar</string>
+    <string name="rbMultiplicacion">Multiplicar</string>
+    <string name="rbDivision">Dividir</string>
+    <string name="tResultado">Resultado: </string>
+    <string name="bIngresar">Ingresar: </string>
+</resources>
