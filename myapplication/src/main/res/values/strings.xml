@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="tBienvenido">Bienvenido!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rbCirculo">Circulo</string>
+    <string name="rbCuadrado">Cuadrado</string>
+    <string name="rbTriangulo">Triangulo</string>
+    <string name="rbRectangulo">Rectangulo</string>
+    <string name="eLado">Lado</string>
+    <string name="eAltura">Altura</string>
+    <string name="eRadio">Radio</string>
+    <string name="eBase">Lado</string>
+    <string name="bCalcular">Calcular!</string>
+</resources>
