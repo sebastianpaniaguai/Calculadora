@@ -7,8 +7,13 @@
     <string name="tID">Identificación:</string>
     <string name="rMasculino">Masculino</string>
     <string name="rFemenino">Femenino</string>
+    <string name="tSexo">Sexo</string>
+    <string name="tCity">Ciudad</string>
+    <string name="tBirthDate">Fecha de Nacimiento</string>
+    <string name="tHobby">Hobby</string>
     <string name="rHobby1">Videojuegos</string>
     <string name="rHobby2">Musica</string>
     <string name="rHobby3">Ciencia</string>
     <string name="rHobby4">Deporte</string>
+    <string name="bIngresar">Ingresar</string>
 </resources>

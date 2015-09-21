@@ -76,7 +76,7 @@
         <DatePicker
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:id="@+id/dpFecha"
             android:endYear="2100"
             android:calendarViewShown="false"
             android:startYear="1900">
@@ -93,24 +93,148 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/rHobby1"
                 android:text="@string/rHobby1"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/rHobby2"
                 android:text="@string/rHobby2"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/rHobby3"
                 android:text="@string/rHobby3"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/rHobby4"
                 android:text="@string/rHobby4"/>
         </RadioGroup>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/bIngresar"
+            android:text="@string/bIngresar"
             />
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/lNombre"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tName"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:id="@+id/capturedNombre"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/lApellido"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tLast_Name"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:id="@+id/capturedLastNombre"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/lID"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tID"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:id="@+id/capturedID"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/lSex"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tSexo"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:id="@+id/capturedSex"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/lCiudad"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tCity"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:id="@+id/capturedCity"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/lBirthDate"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tBirthDate"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:id="@+id/capturedBirthDate"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/lHobby"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tHobby"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:id="@+id/capturedHobby"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 </LinearLayout>
 </ScrollView>
