@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 Lado.setVisibility(View.INVISIBLE);
                 Altura.setVisibility(View.INVISIBLE);
                 Base.setVisibility(View.INVISIBLE);
+                Radio.setText(null);Lado.setText(null);Lado.setText(null);Altura.setText(null);Base.setText(null);
                 Calcular.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 Lado.setVisibility(View.VISIBLE);
                 Altura.setVisibility(View.INVISIBLE);
                 Base.setVisibility(View.INVISIBLE);
-
+                Radio.setText(null);Lado.setText(null);Lado.setText(null);Altura.setText(null);Base.setText(null);
                 Calcular.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 Lado.setVisibility(View.INVISIBLE);
                 Altura.setVisibility(View.VISIBLE);
                 Base.setVisibility(View.VISIBLE);
-
+                Radio.setText(null);Lado.setText(null);Lado.setText(null);Altura.setText(null);Base.setText(null);
                 Calcular.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 Lado.setVisibility(View.INVISIBLE);
                 Altura.setVisibility(View.VISIBLE);
                 Base.setVisibility(View.VISIBLE);
-
+                Radio.setText(null);Lado.setText(null);Lado.setText(null);Altura.setText(null);Base.setText(null);
                 Calcular.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {

@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tName"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:id="@+id/eName"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tLast_Name"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:id="@+id/eLast_Name"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="@string/tID"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:numeric="integer"
+            android:id="@+id/eID"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:id="@+id/rFemenino"
+                android:text="@string/rFemenino"/>
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:numeric="integer"
+                android:text="@string/rMasculino"
+                android:id="@+id/rMasculino"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:endYear="2100"
+            android:calendarViewShown="false"
+            android:startYear="1900">
+        </DatePicker>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/ciudades_colombia"
+            android:id="@+id/spinner">
+        </Spinner>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rHobby1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rHobby2"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rHobby3"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rHobby4"/>
+        </RadioGroup>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Formulario</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tName">Nombre:</string>
+    <string name="tLast_Name">Apellido:</string>
+    <string name="tID">Identificación:</string>
+    <string name="rMasculino">Masculino</string>
+    <string name="rFemenino">Femenino</string>
+    <string name="rHobby1">Videojuegos</string>
+    <string name="rHobby2">Musica</string>
+    <string name="rHobby3">Ciencia</string>
+    <string name="rHobby4">Deporte</string>
+</resources>
