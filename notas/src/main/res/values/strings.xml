@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tQuices">Quices(15%):</string>
+    <string name="tExposiciones">Exposiciones(10%):</string>
+    <string name="tLab">Laboratorio(40%):</string>
+    <string name="tProyeecto">Proyecto(35%):</string>
+    <string name="hNota">Nota</string>
+    <string name="bCalcular">Calcular</string>
+</resources>
