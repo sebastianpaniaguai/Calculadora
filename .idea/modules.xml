@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Calculadora2.iml" filepath="$PROJECT_DIR$/Calculadora2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/formulario/formulario.iml" filepath="$PROJECT_DIR$/formulario/formulario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaz/interfaz.iml" filepath="$PROJECT_DIR$/interfaz/interfaz.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
     </modules>
   </component>
